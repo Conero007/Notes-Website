@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block content %}
-    <h1 align="center">Notes</h1>
+    <h1>Notes</h1>
 
     <ul class="list-group list-group-flush" id="notes">
         {% for note in user.notes %}
@@ -20,7 +20,7 @@
 
     <form method="post">
         <textarea name="note" id="note" cols="30" rows="10" class="form-control"></textarea><br><br>
-        <div align="center">
+        <div>
             <button type="submit" class="btn btn-primary">Add Note</button>
         </div>
     </form>
