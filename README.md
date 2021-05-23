@@ -1,2 +1,5 @@
 # Notes-Website
-Notes taking web-app using flask framework and deploy using docker on heroku.
+
+### Website: https://notes-webapp-v1.herokuapp.com/
+
+### Reference: https://youtu.be/dam0GPOAvVI
